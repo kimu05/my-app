@@ -1,2 +1,2 @@
 #!/bin/sh
-~/.local/bin/streamlit run /var/www/html/app.py  # systemdから実行するため、streamlitの実行ファイルはフルパスで指定
+~/.local/bin/streamlit run /home/ec2-user/my-app/app.py  # systemdから実行するため、streamlitの実行ファイルはフルパスで指定
